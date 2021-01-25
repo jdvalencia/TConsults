@@ -1,0 +1,38 @@
+.nav-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 9vh;
+    border-bottom: #8a8a8a;
+    border-top: #ea609e;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(to bottom, #ea609e,#0cbab9);
+}
+.toolbar-align {
+    justify-content: space-around;
+}
+.left-column {
+    grid-column: 1;
+    justify-self: flex-end;
+    align-self: center;
+    width: 100%;
+}
+.middle-column {
+    grid-column: 2;
+    width: 50%;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+}
+.right-column {
+    grid-column: 3;
+    justify-self: flex-start;
+    align-self: center;
+    width: 100%;
+}
+.nav-button {
+    
+}
