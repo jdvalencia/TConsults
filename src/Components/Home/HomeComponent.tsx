@@ -1,4 +1,4 @@
-import { Card, CardContent,  makeStyles, Typography } from '@material-ui/core';
+import { Card, CardContent, makeStyles, Typography } from '@material-ui/core';
 import React, { FunctionComponent } from 'react';
 import './HomeComponent.css'
 
@@ -10,11 +10,11 @@ const useStyles = makeStyles({
     }
 })
 
-export const HomeComponent:FunctionComponent<any> = () => {
+export const HomeComponent: FunctionComponent<any> = () => {
 
     const classes = useStyles();
 
-    return(
+    return (
         <div className="main-home">
             <div className="container">
                 <div className="home">

@@ -1,6 +1,6 @@
 import { Card, makeStyles } from '@material-ui/core'
 import React, { FunctionComponent } from 'react'
-import './AboutComponent.css'
+import './MissionComponent.css'
 
 const useStyles = makeStyles({
     root: {
@@ -10,13 +10,13 @@ const useStyles = makeStyles({
 })
 
 
-export  const AboutComponent: FunctionComponent<any> = () => {
+export  const MissionComponent: FunctionComponent<any> = () => {
 
     const classes = useStyles();
     // const profile = getProfile();
 
     return(
-        <div className="main-about">
+        <div className="main-mission">
             <div className="container">
                 <div className="home">
                 <Card className={classes.root}>

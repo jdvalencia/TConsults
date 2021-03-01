@@ -1,0 +1,35 @@
+.main-social {
+    display: grid;
+    height: 90.6vh;
+    grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+}
+.container {
+    grid-column: 2;
+}
+.social-media {
+    text-align: center;
+}
+.link-list {
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+}
+
+.social-media h3 {
+    text-align: center;
+}
+.fb {
+    list-style-position: inside;
+    list-style-image: url(../../assets/facebook-icon.png); 
+}
+
+.ig {
+    text-align: center;
+    vertical-align: middle;
+    list-style-position: inside;
+    list-style-image: url(../../assets/Active-Instagram-4-icon.png); 
+}
+.tt {
+
+}

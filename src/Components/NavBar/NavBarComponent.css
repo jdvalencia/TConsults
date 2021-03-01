@@ -1,6 +1,6 @@
 .nav-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr);
     height: 9vh;
     border-bottom: #8a8a8a;
     border-top: #ea609e;
@@ -12,27 +12,31 @@
     background-image: linear-gradient(to bottom, #ea609e,#0cbab9);
 }
 .toolbar-align {
-    justify-content: space-around;
+    margin-right: 2em;
+}
+.logo {
+    align-self: center;
 }
 .left-column {
     grid-column: 1;
-    justify-self: flex-end;
-    align-self: center;
+    justify-self: flex-start;
+    align-self: flex-start;
     width: 100%;
 }
 .middle-column {
     grid-column: 2;
-    width: 50%;
-    justify-self: center;
-    justify-content: center;
-    align-self: center;
+    width: 100%;
 }
 .right-column {
-    grid-column: 3;
-    justify-self: flex-start;
+    grid-column: 4;
+    justify-self: self-end;
     align-self: center;
     width: 100%;
 }
-.nav-button {
-    
+.link-column {
+    grid-column: 5;
+    justify-self: flex-end;
+    align-self: center;
+    width: 50%;
+
 }

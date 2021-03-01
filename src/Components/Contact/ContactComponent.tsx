@@ -5,7 +5,6 @@ import { FormErrors } from '../../models/FormErrors';
 
 const useStyles = makeStyles({
     root: {
-        backgroundColor: 'transparent',
         marginTop: '1em',
         marginBottom: '1em'
     }
