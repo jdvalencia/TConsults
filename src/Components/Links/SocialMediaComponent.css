@@ -21,14 +21,14 @@
 }
 .fb {
     list-style-position: inside;
-    list-style-image: url(../../assets/facebook-icon.png); 
+    /* list-style-image: url(../../assets/facebook-icon.png);  */
 }
 
 .ig {
     text-align: center;
     vertical-align: middle;
     list-style-position: inside;
-    list-style-image: url(../../assets/Active-Instagram-4-icon.png); 
+    /* list-style-image: url(../../assets/Active-Instagram-4-icon.png);  */
 }
 .tt {
 

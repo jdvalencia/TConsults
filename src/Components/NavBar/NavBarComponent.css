@@ -1,18 +1,17 @@
 .nav-grid {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    height: 9vh;
     border-bottom: #8a8a8a;
     border-top: #ea609e;
     border-left: transparent;
     border-right: transparent;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     background-color: #e6e6e6;
     background-image: linear-gradient(to bottom, #ea609e,#0cbab9);
 }
 .toolbar-align {
-    margin-right: 2em;
+    padding-right: 2em;
 }
 .logo {
     align-self: center;

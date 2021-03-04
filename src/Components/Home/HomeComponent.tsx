@@ -1,6 +1,8 @@
 import { Card, CardContent, makeStyles, Typography } from '@material-ui/core';
 import React, { FunctionComponent } from 'react';
 import './HomeComponent.css'
+//@ts-ignore
+import video from '../../assets/homepage_video2.mp4'
 
 const useStyles = makeStyles({
     root: {
@@ -16,17 +18,22 @@ export const HomeComponent: FunctionComponent<any> = () => {
 
     return (
         <div className="main-home">
-            <div className="container">
-                <div className="home">
-                    <Card className={classes.root}>
-                        <CardContent>
-                            <Typography>
-                                My name is Tiara Christina Singh
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </div>
+            <div className="container-home">
+                <video playsInline autoPlay muted loop className="home-video">
+                    <source src={video} type="video/mp4" />
+                </video>
+                <header className="home-header">
+                    <h1>
+                        Welcome to TConsults
+                </h1>
+                </header>
             </div>
+            <div className="about_me">
+                <p>My name is Tiara Singh</p>
+                <p>My name is Tiara Singh</p>
+                <p>My name is Tiara Singh</p>
+            </div>
+
         </div>
     );
 }

@@ -2,11 +2,14 @@ import { Card, CardContent, makeStyles } from '@material-ui/core';
 import React, { FunctionComponent, useState } from 'react';
 import './ContactComponent.css'
 import { FormErrors } from '../../models/FormErrors';
+import { FooterComponent } from '../Footer/FooterComponent';
 
 const useStyles = makeStyles({
     root: {
+        display: 'flex',
         marginTop: '1em',
-        marginBottom: '1em'
+        marginBottom: '1em',
+        justifyContent: 'center'
     }
 })
 
@@ -138,10 +141,8 @@ export const ContactComponent: FunctionComponent<any> = () => {
 
     return (
         <div className="main-contact">
-            <div className="container">
-                <div className="home">
-                    <Card className={classes.root}>
-                        <CardContent>
+            <div className="container-contact">
+                <div className="content-contact">
                             <h1>
                                 Contact Us
                             </h1>
@@ -212,10 +213,12 @@ export const ContactComponent: FunctionComponent<any> = () => {
                                     <button type="submit">Submit</button>
                                 </div>
                             </form>
-                        </CardContent>
-                    </Card>
                 </div>
             </div>
+            <div className="foot">
+                <FooterComponent />
+            </div>
+            
         </div>
     )
 }

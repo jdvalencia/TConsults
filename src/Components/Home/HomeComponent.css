@@ -1,9 +1,48 @@
+@media screen and (max-width: 375px) {
+    .home-header {
+        color: green;
+        /* top: 10%;
+        left: 10%; */
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 800px) {
+    .home-header {
+        color: blue;
+        /* top: 10%;
+        left: 10%; */
+    }
+}
+
 .main-home {
     display: grid;
-    height: 90.6vh;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto;
 }
-.container {
-    grid-column: 2;
+
+.container-home {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.home-header {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-video {
+    height: 99.6%;
+    width: 100%;
+}
+.about_me {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    width: 100%;
 }

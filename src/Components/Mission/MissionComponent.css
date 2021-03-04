@@ -1,7 +1,7 @@
 .main-mission {
     display: grid;
-    height: 90.6vh;
     grid-template-columns: repeat(3,1fr);
+
 }
 .container {
     grid-column: 2;

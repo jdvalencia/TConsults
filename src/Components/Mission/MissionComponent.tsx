@@ -20,7 +20,8 @@ export  const MissionComponent: FunctionComponent<any> = () => {
             <div className="container">
                 <div className="home">
                 <Card className={classes.root}>
-                          <iframe title="Tia's Instagram" src="https://embedsocial.com/facebook_album/pro_hashtag/de2639f6bbc42c49afa5d9fdbbbe9a92d1c5df5b" width="900px" height="650px" frameBorder="0" marginHeight={0} marginWidth={0} style={{marginTop:'2em'}}></iframe>
+                          {/* <iframe title="Tia's Instagram" src="https://embedsocial.com/facebook_album/pro_hashtag/de2639f6bbc42c49afa5d9fdbbbe9a92d1c5df5b" width="900px" height="650px" frameBorder="0" marginHeight={0} marginWidth={0} style={{marginTop:'2em'}}></iframe> */}
+                          Placeholder
                     </Card>
   
                 </div>
