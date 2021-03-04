@@ -1,13 +1,13 @@
 @media screen and (max-width: 375px) {
     .home-header {
-        color: green;
+        /* color: green; */
         /* top: 10%;
         left: 10%; */
     }
 }
 @media screen and (min-width: 376px) and (max-width: 800px) {
     .home-header {
-        color: blue;
+        /* color: blue; */
         /* top: 10%;
         left: 10%; */
     }
